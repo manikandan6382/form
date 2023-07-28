@@ -1,0 +1,234 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.form0{
+    
+    background-color: whitesmoke;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px ;
+   box-shadow: 5px;
+    border: 1px solid black;
+    margin: 20px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+header{
+    background-color: red;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* header {
+    display: flex;
+} */
+.all{
+    text-align: left;
+    padding: 5px;
+    
+}
+header h2{
+
+    margin-bottom: 0px;
+}
+header span{
+    font-size: 2.5rem; 
+} 
+.create {
+margin-left: 3px;   
+}
+.required p{
+    /* padding: 5px; */
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.basic p{
+    background-color: rgb(185, 177, 177);
+    padding-left: 8px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form{
+    text-align: center;
+    margin:20px auto 20px  auto;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    /* border-bottom-left-radius: 15px; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: rgb(241, 237, 237);
+    text-align: center;    
+    
+}
+.form1 label{
+    
+    flex-basis: 25%;
+    
+ }
+
+.email{
+    padding: 10px;
+    
+}
+.form1 input,select
+{    flex-basis: 75%;
+    
+    width: 90%;
+    padding: 4px;
+    font-size: 1rem; 
+    border-radius: 8px;
+    border-color:rgb(223, 217, 217);
+}
+
+.password{
+    padding: 10px;
+}
+.retype{
+    padding: 10px;
+}
+.first{
+    padding: 10px;
+}
+.last{
+    padding: 10px;
+}
+.phone{
+    padding: 10px;
+}
+.add{
+    padding: 10px;
+}
+.city{
+    padding: 10px;
+}
+.state{
+    padding: 10px;
+}
+.count{
+    padding: 10px;
+}
+@media(min-width:760px){
+    .form1{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .form1 label,input{
+        display: inline-block;
+        vertical-align:.5rem ;
+        padding: 8px;
+
+    }
+    .form1 label{
+        text-align: left;
+        width: 25%;
+        font-weight: bold;
+
+    }
+    .form1 input,select{
+        width: 40%;
+       
+    }
+}
+.status{
+    text-align: center;
+    
+}
+#s{
+    font-weight: bold;
+}
+.radio{
+    /* background-color: white; */
+  
+    display:grid;
+    grid-template-columns: 1fr ;
+    /* padding-left: 70px; */
+    /* text-align: justify; */
+    position: relative;
+    /* left: 100px; */
+    /* margin: 5px 0px 5px 110px; */
+}
+.radio input{
+    width: 10px;
+    
+}
+.radio label{
+    
+    width: 70%;
+    
+}
+input[type="radio"]{
+    transform: scale(1.5);
+    
+}
+
+@media (min-width:600px) {
+    .radio{
+        
+        margin: 5px auto;
+        text-align: justify;
+        
+
+    }
+    #g,#c,#d{
+        margin-left: 30%;
+        
+    }
+    
+    #s{
+        display: inline;
+        width: 100%;
+        
+    }
+}
+@media (min-width:900px) {
+  
+    .radio{
+        width: 50%;
+    }
+        
+}
+button{
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    min-width: 20%;
+    margin-left: 10%;
+
+}
+.att{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+textarea{
+    /* width: 50%; */
+    padding: 4px;
+    font-size: 1rem; 
+    border-radius: 8px;
+    border-color:rgb(223, 217, 217);
+   
+}
+@media (max-width:650px) {
+
+    textarea{width: 70%;}
+}
